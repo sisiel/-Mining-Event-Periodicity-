@@ -12,3 +12,6 @@ The algorithm is roughly divided into two steps:
 2. Most probable behavior cycle calculation: (improve part by yourself)
 
 Theoretically, after obtaining the sequence of the probability-period relationship of the first step, extract the peaks. For example, if 3 days is the period when you browse an APP, then 6 days are also, so 3, 6, 9 are likely to be the output of the first step. Extract the user's most probable event period based on the divisive scoring rule
+
+after run the code I upoad,we can see the Output result is score:2, T:7
+Since our example data is (ls1 * 5 + ls2 * 2) * 10, that is, the result is also 7 days, and the result meets expectations
