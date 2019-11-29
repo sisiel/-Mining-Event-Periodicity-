@@ -1,5 +1,5 @@
 # -Mining-Event-Periodicity-
-The main algorithm of this paper is to read the paper "ePeriodicity: Mining Event Periodicity from Incomplete Observations", and implement the code implementation of python and make corresponding improvements. The main function of this algorithm is to get users to supervise an event (can It is the behavior cycle and confidence of using an APP or going to a physical location); the characteristic of this algorithm is that even if the data is missing a lot, it can get better results. The use scenario can be based on the geographical location to determine whether the user works in a certain place (there is a cycle), and the cycle situation (shift shift or five days off on two days, etc.); determine the user's habits of APP, when found to be different from the usual habits Stay alert and stay in time
+The main algorithm of this paper is to read the paper 《ePeriodicity: Mining Event Periodicity from Incomplete Observations》, and implement the code implementation of python and make corresponding improvements. The main function of this algorithm is to get users to supervise an event (can It is the behavior cycle and confidence of using an APP or going to a physical location); the characteristic of this algorithm is that even if the data is missing a lot, it can get better results. The use scenario can be based on the geographical location to determine whether the user works in a certain place (there is a cycle), and the cycle situation (shift shift or five days off on two days, etc.); determine the user's habits of APP, when found to be different from the usual habits Stay alert and stay in time
 ***
 The algorithm is roughly divided into two steps:
 
@@ -15,3 +15,5 @@ Theoretically, after obtaining the sequence of the probability-period relationsh
 
 after run the code I upoad,we can see the Output result is score:2, T:7
 Since our example data is (ls1 * 5 + ls2 * 2) * 10, that is, the result is also 7 days, and the result meets expectations
+
+Attached paper link: https://faculty.ist.psu.edu/jessieli/Publications/tkde14.pdf
